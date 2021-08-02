@@ -2,5 +2,7 @@ body{
     background-color: grey;
 }
 #profileImg{
-    margin-top: -70px;
+    margin-top: -7rem;
+    padding-right: 1rem;
+    
 }

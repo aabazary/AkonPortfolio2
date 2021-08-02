@@ -9,13 +9,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome  -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Hello, world!</title>
+    <title>Akon Portfolio</title>
 </head>
+<!-- NavBar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Ashkon Abazary</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,132 +28,122 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active ml-auto">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about-me">About Me</a>
             </li>
             <li class="nav-item ml-auto">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item ml-auto">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item ml-auto">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#contact-me">Contact Me</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <body class="">
-    <div class="container bg-secondary rounded mx-auto my-4 col-12 col-md-11 py-2">
-        <h1 class="display-4 text-light">About Me</h1>
+    <div class="container bg-secondary rounded mx-auto my-4 col-12 col-md-11 py-2 shadow-lg ">
+        <h1 class="display-4 text-light" id="about-me">About Me</h1>
         <hr class="my-4 w-50 bg-light ml-0">
-        <div><img class="float-right rounded-circle " id="profileImg" src="./assets/images/personal pic.png" alt="">
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-                to featured content or information.</p>
+        <div>
+            <div class="row">
+                <p class="w-75 text-light px-3">Welcome to my Page. My name is Ashkon "Akon" Abazary. I am a aspiring programmer that is currently enrolled in a Full Stack Web development Bootcamp. The COVID-19 pandemic has allowed me to reflect on my future. I am currently an Entrepreneur, and I am going to bring my entrepreneurial mind as well as my passion for computers and technology to take on the world of Web Development</p>
+                <img class="float-right rounded-circle w-25 " id="profileImg" src="./assets/images/personal pic.png"
+                    alt="">
+            </div>
         </div>
     </div>
     <div class="container bg-dark rounded mx-auto w-90 mb-4 col-12 col-md-11 py-2">
-        <h1 class="display-4 text-light">Portfolio</h1>
+        <h1 class="display-4 text-light" id="portfolio">Portfolio</h1>
         <hr class="my-4 w-50 bg-light ml-0">
         <div class="row m-2">
-            <div class="card text-white bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
-                <img class="card-img-top" src="./assets/images/personal pic.png" alt="Card image cap">
+            <div class="card text-light bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
+                <img class="card-img-top" src="./assets/images/inspiration-station.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <h5 class="card-title"><u>Inspiration Station</u></h5>
+                    <p class="card-text">A site to help your inspiration, by providing quotes and images to develop
+                        inspiration. First Group Project</p>
+                    <a href="https://joeyfitz.github.io/First-Team-Project/" target="_blank" class="btn btn-dark">Take
+                        Me to this Project!</a>
                 </div>
             </div>
-            <div class="card text-white bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
-                <img class="card-img-top" src="./assets/images/personal pic.png" alt="Card image cap">
+            <div class="card text-light bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
+                <img class="card-img-top" src="./assets/images/weather-dashboard.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <h5 class="card-title underline"><u>Weather Dashboard</u></h5>
+                    <p class="card-text">A weather dashboard that uses APIs to fetch a citys current weather and 5 day
+                        forecast</p>
+                    <a href="https://aabazary.github.io/weather_dashboard/" target="_blank" class="btn btn-dark">Take Me
+                        to this Project!</a>
                 </div>
             </div>
-            <div class="card text-white bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
-                <img class="card-img-top" src="./assets/images/personal pic.png" alt="Card image cap">
+            <div class="card text-light bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
+                <img class="card-img-top" src="./assets/images/code-quiz.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <h5 class="card-title"><u>Coding Quiz</u></h5>
+                    <p class="card-text">A simple Coding game that tests your Javascript, try and get the High Score</p>
+                    <a href="https://aabazary.github.io/code_quiz/" target="_blank" class="btn btn-dark">Take Me to this
+                        Project!</a>
                 </div>
             </div>
-            <div class="card text-white bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
-                <img class="card-img-top" src="./assets/images/personal pic.png" alt="Card image cap">
+            <div class="card text-light bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
+                <img class="card-img-top" src="./assets/images/day-planner.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <h5 class="card-title"><u>Day Planner</u></h5>
+                    <p class="card-text">A daily planner that allows you to save the daily schedule in local storage</p>
+                    <a href="https://aabazary.github.io/day_planner/" target="_blank" class="btn btn-dark">Take Me to
+                        this Project!</a>
+                </div>
+            </div>
+            <div class="card text-light bg-secondary mb-3 col-md-4 col-lg-3 col-sm-6 w-90" style="">
+                <img class="card-img-top" src="./assets/images/pw-gen.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"><u>Password Generator</u></h5>
+                    <p class="card-text">A simple password generator that creates a password depending on the inputs
+                        selected from the prompts</p>
+                    <a href="https://aabazary.github.io/pwgen/" target="_blank" class="btn btn-dark">Take Me to this
+                        Project!</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container bg-secondary rounded mx-auto my-4 col-12 col-md-11 py-2">
-        <h1 class="display-4 text-light">Contact Me</h1>
+        <h1 class="display-4 text-light" id="contact-me">Contact Me</h1>
         <hr class="my-4 w-50 bg-light ml-0">
         <form>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput2">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Write your Message here."></textarea>
             </div>
         </form>
     </div>
 </body>
-<footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
+<footer class="bg-dark text-center text-light">
+
     <div class="container p-4 pb-0">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-facebook-f"></i></a>
-
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
-
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-instagram"></i></a>
-
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+        <section class="mb-2">
+            <a class="btn btn-outline-light btn-floating m-1"
+                href="https://www.linkedin.com/in/ashkon-abazary-19b099213/" target="_blank" role="button"><i
                     class="fab fa-linkedin-in"></i></a>
 
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/aabazary" target="_blank"
+                role="button"><i class="fab fa-github"></i></a>
         </section>
-        <!-- Section: Social media -->
     </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2021 paraNormal productions
     </div>
-    <!-- Copyright -->
 </footer>
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 </script>
