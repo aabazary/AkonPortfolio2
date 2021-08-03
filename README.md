@@ -2,4 +2,4 @@ An updated Portfolio Page. I wanted to practice Bootstrap a bit more so I redid 
 
 https://aabazary.github.io/AkonPortfolio2/
 
-![image](https://user-images.githubusercontent.com/85041715/127985047-a1f14fb8-18d3-459c-aa06-cd272f5a29f2.png)
+![](assets/images/screenshot.png)
