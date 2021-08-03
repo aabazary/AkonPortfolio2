@@ -9,3 +9,12 @@ body{
     align-self: center;
     
 }
+.card{
+    padding: 0 1rem;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+}
+.card-img-top{
+    margin-top: 1rem;
+}
